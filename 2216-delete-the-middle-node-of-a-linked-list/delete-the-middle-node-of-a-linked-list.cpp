@@ -21,13 +21,13 @@ public:
         }
           int mid = count / 2;
 
-                  // reach node before middle
+                 
                           temp = head;
                                   for (int i = 0; i < mid - 1; i++) {
                                               temp = temp->next;
                                                       }
 
-                                                              // delete middle node
+                                                              
                                                                       temp->next = temp->next->next;
 
                                                                               return head;
