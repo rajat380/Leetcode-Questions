@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> findPeaks(vector<int>& mountain) {
-        if(mountain.size()<=2)
+        if(mountain.size()<=1)
         return {};
         vector<int>ans;
         for(int i=1;i<mountain.size()-1;i++){
